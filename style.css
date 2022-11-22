@@ -12,7 +12,7 @@ p{
     font-size: 70px;
 }
 body {
-    background-image: url("n1.jpg");
+    background-image: url("n2.jpg");
     background-repeat: no-repeat;
  }
  #techer{
@@ -82,4 +82,27 @@ body {
     display: inline-block;
     font-size: 20px;
     padding: 30px;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+}
+div.hover{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+div.hover:hover{
+    width: 300px;
+    background-color: aqua;
+}
+.button{
+    background-color: aqua;
+    color: antiquewhite;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 15%;
+    cursor: pointer;
 }
