@@ -1,0 +1,85 @@
+h2 {
+    color: crimson;   
+}
+p{
+    color: springgreen;
+    text-align: center;
+    background-color: bisque;
+}
+.title {
+    color: brown;
+    text-align: right;
+    font-size: 70px;
+}
+body {
+    background-image: url("n1.jpg");
+    background-repeat: no-repeat;
+ }
+ #techer{
+     font-size: 90px;
+     color: crimson;
+     text-align: center;
+     background-color: bisque;
+     padding: 50px;
+ }
+ p.error{
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ p.success{
+     color: brown;
+     font-size: 20px;
+     font-weight: bolder;
+
+ }
+
+ div{
+    width: 200px;
+    height: 100px;
+    float: left;
+ }
+
+ #box{
+     width: 200px;
+     height: 100px;
+     background-color: rgb(0, 153, 255);
+     float: left;
+ }
+ #box2{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    float: left;
+}
+#box3{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    float: left;
+}
+#box4{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(18, 252, 174);
+    float: left;
+}
+#box5{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(55, 255, 98);
+    float: left;
+}
+.nav{
+    background-color: yellow;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    clear: left;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+}
